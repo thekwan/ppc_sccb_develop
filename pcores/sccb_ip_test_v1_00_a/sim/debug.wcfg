@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="./isim.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="71" />
+   <wvobject fp_name="/testbench/u_dut/Bus2IP_Clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Bus2IP_Clk</obj_property>
+      <obj_property name="ObjectShortName">Bus2IP_Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/Bus2IP_Reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Bus2IP_Reset</obj_property>
+      <obj_property name="ObjectShortName">Bus2IP_Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/Bus2IP_Data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Bus2IP_Data[0:31]</obj_property>
+      <obj_property name="ObjectShortName">Bus2IP_Data[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/Bus2IP_BE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Bus2IP_BE[0:3]</obj_property>
+      <obj_property name="ObjectShortName">Bus2IP_BE[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/Bus2IP_RdCE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Bus2IP_RdCE[0:4]</obj_property>
+      <obj_property name="ObjectShortName">Bus2IP_RdCE[0:4]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/Bus2IP_WrCE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Bus2IP_WrCE[0:4]</obj_property>
+      <obj_property name="ObjectShortName">Bus2IP_WrCE[0:4]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/IP2Bus_Data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IP2Bus_Data[0:31]</obj_property>
+      <obj_property name="ObjectShortName">IP2Bus_Data[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/IP2Bus_RdAck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IP2Bus_RdAck</obj_property>
+      <obj_property name="ObjectShortName">IP2Bus_RdAck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/IP2Bus_WrAck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IP2Bus_WrAck</obj_property>
+      <obj_property name="ObjectShortName">IP2Bus_WrAck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/IP2Bus_Error" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IP2Bus_Error</obj_property>
+      <obj_property name="ObjectShortName">IP2Bus_Error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/Scl_I" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Scl_I</obj_property>
+      <obj_property name="ObjectShortName">Scl_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/Sda_I" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Sda_I</obj_property>
+      <obj_property name="ObjectShortName">Sda_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/slv_reg_write_sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">slv_reg_write_sel[0:4]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg_write_sel[0:4]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/slv_reg_read_sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">slv_reg_read_sel[0:4]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg_read_sel[0:4]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/slv_read_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">slv_read_ack</obj_property>
+      <obj_property name="ObjectShortName">slv_read_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/slv_write_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">slv_write_ack</obj_property>
+      <obj_property name="ObjectShortName">slv_write_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/clk_cnt_max" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_cnt_max[0:9]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt_max[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/clk_cnt_start_time" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_cnt_start_time[0:9]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt_start_time[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/clk_cnt_scl_high" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_cnt_scl_high[0:9]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt_scl_high[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/clk_cnt_end_time" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_cnt_end_time[0:9]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt_end_time[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/clk_cnt_sda_write" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_cnt_sda_write[0:9]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt_sda_write[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/clk_cnt_sda_read" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_cnt_sda_read[0:9]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt_sda_read[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/clk_cnt_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_cnt_en</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/clk_cnt_clr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_cnt_clr</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/start_trigger" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start_trigger</obj_property>
+      <obj_property name="ObjectShortName">start_trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/Scl_O" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Scl_O</obj_property>
+      <obj_property name="ObjectShortName">Scl_O</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/Scl_T" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Scl_T</obj_property>
+      <obj_property name="ObjectShortName">Scl_T</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/Sda_O" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Sda_O</obj_property>
+      <obj_property name="ObjectShortName">Sda_O</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/Sda_T" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Sda_T</obj_property>
+      <obj_property name="ObjectShortName">Sda_T</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/slv_reg0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">slv_reg0[0:7]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg0[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/slv_reg1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">slv_reg1[0:7]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg1[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/slv_reg2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">slv_reg2[0:7]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg2[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/slv_reg3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">slv_reg3[0:7]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg3[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/slv_reg4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">slv_reg4[0:7]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg4[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/slv_ip2bus_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">slv_ip2bus_data[0:31]</obj_property>
+      <obj_property name="ObjectShortName">slv_ip2bus_data[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/reg_data_r_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_data_r_en</obj_property>
+      <obj_property name="ObjectShortName">reg_data_r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/reg_data_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_data_r[0:7]</obj_property>
+      <obj_property name="ObjectShortName">reg_data_r[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/update_state_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">update_state_reg</obj_property>
+      <obj_property name="ObjectShortName">update_state_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/main_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">main_state[0:3]</obj_property>
+      <obj_property name="ObjectShortName">main_state[0:3]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/sub_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sub_state[0:3]</obj_property>
+      <obj_property name="ObjectShortName">sub_state[0:3]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/clk_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_cnt[0:9]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/rw_flag" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rw_flag</obj_property>
+      <obj_property name="ObjectShortName">rw_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/dev_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dev_addr[0:7]</obj_property>
+      <obj_property name="ObjectShortName">dev_addr[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/reg_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_addr[0:7]</obj_property>
+      <obj_property name="ObjectShortName">reg_addr[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/reg_data_w" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_data_w[0:7]</obj_property>
+      <obj_property name="ObjectShortName">reg_data_w[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/wreg_bit_index" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wreg_bit_index[0:7]</obj_property>
+      <obj_property name="ObjectShortName">wreg_bit_index[0:7]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/iter_index" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">iter_index</obj_property>
+      <obj_property name="ObjectShortName">iter_index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/C_SLV_DWIDTH" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">C_SLV_DWIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_SLV_DWIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/C_NUM_REG" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">C_NUM_REG[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_NUM_REG[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/IDLE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IDLE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/START" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">START[3:0]</obj_property>
+      <obj_property name="ObjectShortName">START[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/PHASE1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PHASE1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PHASE1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/PHASE2_W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PHASE2_W[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PHASE2_W[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/PHASE3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PHASE3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PHASE3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/PHASE2_R" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PHASE2_R[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PHASE2_R[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/END" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">END[3:0]</obj_property>
+      <obj_property name="ObjectShortName">END[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/END2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">END2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">END2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/WAIT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WAIT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WAIT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/D0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/D1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/D2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/D3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/D4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/D5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D5[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D5[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/D6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D6[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D6[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/D7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D7[3:0]</obj_property>
+      <obj_property name="ObjectShortName">D7[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/DC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DC[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DC[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/READ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">READ</obj_property>
+      <obj_property name="ObjectShortName">READ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_dut/WRITE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WRITE</obj_property>
+      <obj_property name="ObjectShortName">WRITE</obj_property>
+   </wvobject>
+</wave_config>

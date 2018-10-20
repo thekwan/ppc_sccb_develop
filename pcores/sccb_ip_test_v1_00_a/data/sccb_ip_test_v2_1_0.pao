@@ -1,0 +1,10 @@
+##############################################################################
+## Filename:          /home/deokhwan/Work/FPGA/ppc_sccb_ip/pcores/sccb_ip_test_v1_00_a/data/sccb_ip_test_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Sat Oct  6 07:43:23 2018 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_single_v1_01_a  all 
+lib sccb_ip_test_v1_00_a user_logic verilog
+lib sccb_ip_test_v1_00_a sccb_ip_test vhdl

@@ -1,0 +1,10 @@
+-batch 
+-create sccb_ip_test 
+-ver 1.00.a 
+-dir "/home/deokhwan/Work/FPGA/ppc_sccb_ip" 
+-lang verilog 
+-bus plbv46 s 
+-rst 
+-reg 5 
+-xps 
+-driver 
