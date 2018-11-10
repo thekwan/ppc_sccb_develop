@@ -1,0 +1,35 @@
+make -k all 
+libgen -hw ../ppc_sccb_develop_hw_platform/system.xml\
+	       \
+	       -pe ppc440_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.3 Build EDK_P.40xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../ppc_sccb_develop_hw_platform/system.xml -pe ppc440_0
+-log libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'gmake -s include "COMPILER=powerpc-eabi-gcc"
+"ARCHIVER=powerpc-eabi-ar" "COMPILER_FLAGS=-mcpu=440  -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+
+Running libs - 'gmake -s libs "COMPILER=powerpc-eabi-gcc"
+"ARCHIVER=powerpc-eabi-ar" "COMPILER_FLAGS=-mcpu=440  -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g"'.
+Compiling common
+powerpc-eabi-ar: creating ../../../lib/libxil.a
+Compiling lldma
+Compiling standalone
+Compiling gpio
+Compiling uartlite
+Compiling bram
+Compiling cpu_ppc440
+Running execs_generate.
+Finished building libraries

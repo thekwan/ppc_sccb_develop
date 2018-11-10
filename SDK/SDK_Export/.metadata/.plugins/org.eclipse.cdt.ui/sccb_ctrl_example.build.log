@@ -1,0 +1,16 @@
+
+**** Build of configuration Debug for project sccb_ctrl_example ****
+
+make all 
+Building file: ../src/helloworld.c
+Invoking: PowerPC gcc compiler
+powerpc-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../sccb_ctrl_example_bsp/ppc440_0/include -mcpu=440 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o"src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:33: error: ‘u8’ undeclared (first use in this function)
+../src/helloworld.c:33: error: (Each undeclared identifier is reported only once
+../src/helloworld.c:33: error: for each function it appears in.)
+../src/helloworld.c:33: error: expected ‘;’ before ‘reg’
+../src/helloworld.c:38: warning: implicit declaration of function ‘sccb_reset’
+../src/helloworld.c:40: error: ‘reg’ undeclared (first use in this function)
+../src/helloworld.c:40: warning: implicit declaration of function ‘sccb_read_reg’
+make: *** [src/helloworld.o] Error 1

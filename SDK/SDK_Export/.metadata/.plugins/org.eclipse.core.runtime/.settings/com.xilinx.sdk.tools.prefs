@@ -1,0 +1,18 @@
+#Sat Nov 10 20:21:28 KST 2018
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:.fixup=xps_bram_if_cntlr_1
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:.sbss2=xps_bram_if_cntlr_1
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:.rodata=xps_bram_if_cntlr_1
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:.data1=xps_bram_if_cntlr_1
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:.text=xps_bram_if_cntlr_1
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:.sdata=xps_bram_if_cntlr_1
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:.rodata1=xps_bram_if_cntlr_1
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:.sbss=xps_bram_if_cntlr_1
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:.bss=xps_bram_if_cntlr_1
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:.data=xps_bram_if_cntlr_1
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:Stack=ddr2_sdram_MEM_BASEADDR
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:.vectors=xps_bram_if_cntlr_1
+eclipse.preferences.version=1
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:Heap=ddr2_sdram_MEM_BASEADDR
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:.sdata2=xps_bram_if_cntlr_1
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:Heap-size=1024
+com.xilinx.sdk.linkgen.prefs.sccb_ctrl_example\:Stack-size=1024
